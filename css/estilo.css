@@ -1,0 +1,81 @@
+/* Reseta as propriedades global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+
+/* Defini as propriedades do cabeçalho */   
+header {
+    background-color: teal;
+    width: 100%;
+    padding: 15px;
+}
+
+/* Defini as propriedades do logo */
+header > div.logo {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header > div.logo a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Defini as propriedades do menu */
+header > nav.menu {
+    float: right;
+    margin-right: 30px;
+}
+
+header > nav.menu li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+header > nav.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+header > nav.menu li a:hover {
+    border-top: 3px solid red;
+    padding-top: 5px;
+}
+
+/* Defini as propriedades do conteudo da página */
+
+div.container img {
+    width: 100%;
+    height: 450px;
+}
+
+/* Rodapé da página */
+footer {
+    background-color: teal;
+    padding: 20px;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+}
+
+footer > p > a {
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+}
